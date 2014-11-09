@@ -2,6 +2,7 @@ body
 {
   background-color: #a1bad1;
 }
+
 #corpo
 {
   background-color: #FFFFFF;
@@ -15,6 +16,10 @@ body
   padding: 1cm 1cm 1cm 1cm;
 }
 
+#cabecalho
+{
+  margin-bottom: 1cm;
+}
 .divdesexpprof
 {
   margin-right: 10px;
@@ -30,6 +35,17 @@ body
    height: 70px; 
    float: left;
    display: block;
+}
+
+#divfoto
+{
+   background-repeat: no-repeat;
+   background-position: center;
+   width: 130px;
+   height: 110px; 
+   float: left;
+   display: block;
+   background-image: url("foto.jpg");
 }
 
 #divimagem1
